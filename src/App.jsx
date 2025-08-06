@@ -71,7 +71,7 @@ export default function App() {
       onDragCancel={handleDragCancel}
       collisionDetection={closestCenter}
     >
-      <div className="flex flex-col items-center p-6 md:p-8 bg-black min-h-screen">
+      <div className="flex flex-col items-center p-6 md:p-8 bg-black/80 min-h-screen">
         <h1 className="text-3xl md:text-4xl font-extrabold mb-8 text-indigo-800 tracking-wide drop-shadow-sm text-center">
           Dynamic Wardrobe
         </h1>
